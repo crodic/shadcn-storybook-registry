@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "timeline-story",
+  "type": "registry:ui",
+  "title": "Timeline Story",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/timeline.stories.tsx",
+      "content": "import {\r\n  Timeline,\r\n  TimelineContent,\r\n  TimelineDate,\r\n  TimelineHeader,\r\n  TimelineIndicator,\r\n  TimelineItem,\r\n  TimelineSeparator,\r\n  TimelineTitle,\r\n} from \"@/components/ui/timeline\";\r\nimport type { Meta, StoryObj } from \"@storybook/nextjs-vite\";\r\n\r\ninterface TimelineItemType {\r\n  id: number;\r\n  title: string;\r\n  date: string;\r\n  description: string;\r\n}\r\n\r\ninterface ITimeLine extends React.ComponentPropsWithoutRef<typeof Timeline> {\r\n  items: TimelineItemType[];\r\n}\r\n\r\nconst meta: Meta<ITimeLine> = {\r\n  title: \"ui/Timeline\",\r\n  component: Timeline,\r\n  tags: [\"autodocs\"],\r\n  argTypes: {\r\n    items: {\r\n      control: \"object\",\r\n    },\r\n  },\r\n  args: {\r\n    defaultValue: 0,\r\n    className: \"w-96\",\r\n    items: [\r\n      {\r\n        id: 1,\r\n        date: \"2024-05-01\",\r\n        title: \"Custom Event\",\r\n        description: \"Some details...\",\r\n      },\r\n      {\r\n        id: 2,\r\n        date: \"2024-05-02\",\r\n        title: \"Another Event\",\r\n        description: \"More details...\",\r\n      },\r\n    ] satisfies TimelineItemType[],\r\n  },\r\n  render: ({ items, ...args }) => (\r\n    <Timeline {...args}>\r\n      {items.map((item) => (\r\n        <TimelineItem\r\n          key={item.id}\r\n          step={item.id}\r\n          className=\"group-data-[orientation=vertical]/timeline:sm:ms-32\"\r\n        >\r\n          <TimelineHeader>\r\n            <TimelineSeparator />\r\n            <TimelineDate className=\"group-data-[orientation=vertical]/timeline:sm:absolute group-data-[orientation=vertical]/timeline:sm:-left-32 group-data-[orientation=vertical]/timeline:sm:w-20 group-data-[orientation=vertical]/timeline:sm:text-right\">\r\n              {item.date}\r\n            </TimelineDate>\r\n            <TimelineTitle className=\"sm:-mt-0.5\">{item.title}</TimelineTitle>\r\n            <TimelineIndicator />\r\n          </TimelineHeader>\r\n          <TimelineContent>{item.description}</TimelineContent>\r\n        </TimelineItem>\r\n      ))}\r\n    </Timeline>\r\n  ),\r\n  parameters: {\r\n    layout: \"centered\",\r\n  },\r\n};\r\n\r\nexport default meta;\r\ntype Story = StoryObj<ITimeLine>;\r\n\r\nexport const Default: Story = {};\r\n",
+      "type": "registry:ui"
+    }
+  ],
+  "meta": {
+    "type": "ui",
+    "story": "ui-timeline"
+  }
+}

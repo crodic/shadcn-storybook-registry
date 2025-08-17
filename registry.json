@@ -779,6 +779,23 @@
       ]
     },
     {
+      "name": "timeline-story",
+      "title": "Timeline Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-timeline"
+      },
+      "registryDependencies": [],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/timeline.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
       "name": "color-story",
       "title": "Color Story",
       "type": "registry:ui",
