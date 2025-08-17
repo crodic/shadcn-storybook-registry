@@ -821,6 +821,28 @@
       ]
     },
     {
+      "name": "image-upload-story",
+      "title": "Image Upload Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-image-upload"
+      },
+      "registryDependencies": ["button"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/features/image-upload.stories.tsx",
+          "type": "registry:file",
+          "target": "registry/features/image-upload.stories.tsx"
+        },
+        {
+          "path": "hooks/use-file-upload.ts",
+          "type": "registry:hook"
+        }
+      ]
+    },
+    {
       "name": "color-story",
       "title": "Color Story",
       "type": "registry:ui",
