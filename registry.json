@@ -1,0 +1,1126 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "acme",
+  "homepage": "https://acme.com",
+  "items": [
+    {
+      "name": "accordion-story",
+      "title": "Accordion Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-accordion"
+      },
+      "registryDependencies": ["accordion"],
+      "files": [
+        {
+          "path": "registry/accordion.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "alert-story",
+      "title": "Alert Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-alert"
+      },
+      "registryDependencies": ["alert"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/alert.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "alert-dialog-story",
+      "title": "Alert Dialog Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-alertdialog"
+      },
+      "registryDependencies": ["alert-dialog"],
+      "files": [
+        {
+          "path": "registry/alert-dialog.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "aspect-ratio-story",
+      "title": "Aspect Ratio Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-aspectratio"
+      },
+      "registryDependencies": ["aspect-ratio"],
+      "files": [
+        {
+          "path": "registry/aspect-ratio.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "avatar-story",
+      "title": "Avatar Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-avatar"
+      },
+      "registryDependencies": ["avatar"],
+      "files": [
+        {
+          "path": "registry/avatar.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "badge-story",
+      "title": "Badge Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-badge"
+      },
+      "registryDependencies": ["badge"],
+      "files": [
+        {
+          "path": "registry/badge.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "breadcrumb-story",
+      "title": "Breadcrumb Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-breadcrumb"
+      },
+      "registryDependencies": ["breadcrumb"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/breadcrumb.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "button-story",
+      "title": "Button Story",
+      "type": "registry:file",
+      "meta": {
+        "type": "ui",
+        "story": "ui-button"
+      },
+      "registryDependencies": ["button"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/button.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "calendar-story",
+      "title": "Calendar Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-calendar"
+      },
+      "registryDependencies": ["calendar"],
+      "dependencies": ["date-fns"],
+      "files": [
+        {
+          "path": "registry/calendar.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "card-story",
+      "title": "Card Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-card"
+      },
+      "registryDependencies": ["card", "button"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/card.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "carousel-story",
+      "title": "Carousel Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-carousel"
+      },
+      "registryDependencies": ["carousel"],
+      "dependencies": ["embla-carousel-react"],
+      "files": [
+        {
+          "path": "registry/carousel.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "chart-story",
+      "title": "Chart Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-chart"
+      },
+      "registryDependencies": ["chart"],
+      "dependencies": ["recharts"],
+      "files": [
+        {
+          "path": "registry/chart.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "checkbox-story",
+      "title": "Checkbox Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-checkbox"
+      },
+      "registryDependencies": ["checkbox", "label"],
+      "files": [
+        {
+          "path": "registry/checkbox.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "collapsible-story",
+      "title": "Collapsible Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-collapsible"
+      },
+      "registryDependencies": ["collapsible"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/collapsible.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "command-story",
+      "title": "Command Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-command"
+      },
+      "registryDependencies": ["dialog", "command"],
+      "files": [
+        {
+          "path": "registry/command.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "context-menu-story",
+      "title": "Context Menu Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-contextmenu"
+      },
+      "registryDependencies": ["context-menu"],
+      "files": [
+        {
+          "path": "registry/context-menu.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "date-picker-story",
+      "title": "Date Picker Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-datepicker"
+      },
+      "registryDependencies": [
+        "button",
+        "calendar",
+        "label",
+        "input",
+        "popover"
+      ],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/date-picker.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "dialog-story",
+      "title": "Dialog Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-dialog"
+      },
+      "registryDependencies": ["dialog"],
+      "files": [
+        {
+          "path": "registry/dialog.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "drawer-story",
+      "title": "Drawer Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-drawer"
+      },
+      "registryDependencies": ["drawer"],
+      "files": [
+        {
+          "path": "registry/drawer.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "dropdown-menu-story",
+      "title": "Dropdown Menu Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-dropdownmenu"
+      },
+      "registryDependencies": ["dropdown-menu"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/dropdown-menu.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "form-story",
+      "title": "Form Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-form"
+      },
+      "registryDependencies": ["button", "form"],
+      "dependencies": ["@hookform/resolvers", "zod", "react-hook-form"],
+      "files": [
+        {
+          "path": "registry/form.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "hover-card-story",
+      "title": "Hover Card Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-hovercard"
+      },
+      "registryDependencies": ["hover-card"],
+      "files": [
+        {
+          "path": "registry/hover-card.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "input-story",
+      "title": "Input Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-input"
+      },
+      "registryDependencies": ["input", "label", "button"],
+      "files": [
+        {
+          "path": "registry/input.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "input-otp-story",
+      "title": "Input OTP Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-inputotp"
+      },
+      "registryDependencies": ["input-otp"],
+      "dependencies": ["input-otp"],
+      "files": [
+        {
+          "path": "registry/input-otp.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "label-story",
+      "title": "Label Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-label"
+      },
+      "registryDependencies": ["label"],
+      "files": [
+        {
+          "path": "registry/label.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "menubar-story",
+      "title": "Menubar Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-menubar"
+      },
+      "registryDependencies": ["menubar"],
+      "files": [
+        {
+          "path": "registry/menubar.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "navigation-menu-story",
+      "title": "Navigation Menu Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-navigationmenu"
+      },
+      "registryDependencies": ["navigation-menu"],
+      "files": [
+        {
+          "path": "registry/navigation-menu.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "pagination-story",
+      "title": "Pagination Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-pagination"
+      },
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "registry/pagination.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "popover-story",
+      "title": "Popover Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-popover"
+      },
+      "registryDependencies": ["popover"],
+      "files": [
+        {
+          "path": "registry/popover.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "progress-story",
+      "title": "Progress Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-progress"
+      },
+      "registryDependencies": ["progress"],
+      "files": [
+        {
+          "path": "registry/progress.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "radio-group-story",
+      "title": "Radio Group Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-radiogroup"
+      },
+      "registryDependencies": ["radio-group", "label"],
+      "files": [
+        {
+          "path": "registry/radio-group.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "resizable-story",
+      "title": "Resizable Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-resizablepanelgroup"
+      },
+      "registryDependencies": ["resizable"],
+      "files": [
+        {
+          "path": "registry/resizable.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "scroll-area-story",
+      "title": "Scroll Area Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-scrollarea"
+      },
+      "registryDependencies": ["scroll-area"],
+      "files": [
+        {
+          "path": "registry/scroll-area.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "select-story",
+      "title": "Select Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-select"
+      },
+      "registryDependencies": ["select"],
+      "files": [
+        {
+          "path": "registry/select.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "separator-story",
+      "title": "Separator Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-separator"
+      },
+      "registryDependencies": ["separator"],
+      "files": [
+        {
+          "path": "registry/separator.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sheet-story",
+      "title": "Sheet Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-sheet"
+      },
+      "registryDependencies": ["sheet"],
+      "files": [
+        {
+          "path": "registry/sheet.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sidebar-story",
+      "title": "Sidebar Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-sidebar"
+      },
+      "registryDependencies": ["sidebar", "dropdown-menu"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/sidebar.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "skeleton-story",
+      "title": "Skeleton Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-skeleton"
+      },
+      "registryDependencies": ["skeleton"],
+      "files": [
+        {
+          "path": "registry/skeleton.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "slider-story",
+      "title": "Slider Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-slider"
+      },
+      "registryDependencies": ["slider"],
+      "files": [
+        {
+          "path": "registry/slider.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "sonner-story",
+      "title": "Sonner Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-sonner"
+      },
+      "registryDependencies": ["sonner", "button"],
+      "dependencies": ["sonner"],
+      "files": [
+        {
+          "path": "registry/sonner.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "switch-story",
+      "title": "Switch Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-switch"
+      },
+      "registryDependencies": ["switch", "label"],
+      "files": [
+        {
+          "path": "registry/switch.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "table-story",
+      "title": "Table Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-table"
+      },
+      "registryDependencies": ["table"],
+      "files": [
+        {
+          "path": "registry/table.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tabs-story",
+      "title": "Tabs Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-tabs"
+      },
+      "registryDependencies": ["tabs"],
+      "files": [
+        {
+          "path": "registry/tabs.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "textarea-story",
+      "title": "Textarea Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-textarea"
+      },
+      "registryDependencies": ["textarea", "button", "label"],
+      "files": [
+        {
+          "path": "registry/textarea.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toggle-story",
+      "title": "Toggle Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-toggle"
+      },
+      "registryDependencies": ["toggle"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/toggle.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "toggle-group-story",
+      "title": "Toggle Group Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-togglegroup"
+      },
+      "registryDependencies": ["toggle-group"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/toggle-group.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "tooltip-story",
+      "title": "Tooltip Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-tooltip"
+      },
+      "registryDependencies": ["tooltip"],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/tooltip.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "color-story",
+      "title": "Color Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "design",
+        "story": "ui-color"
+      },
+      "registryDependencies": ["table"],
+      "files": [
+        {
+          "path": "registry/tokens/color.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "radius-story",
+      "title": "Radius Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "design",
+        "story": "ui-radius"
+      },
+      "registryDependencies": ["table"],
+      "files": [
+        {
+          "path": "registry/tokens/radius.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "shadow-story",
+      "title": "Shadow Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "design",
+        "story": "ui-shadow"
+      },
+      "registryDependencies": ["table"],
+      "files": [
+        {
+          "path": "registry/tokens/shadow.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "spacing-story",
+      "title": "Spacing Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "design",
+        "story": "ui-spacing"
+      },
+      "registryDependencies": ["table"],
+      "files": [
+        {
+          "path": "registry/tokens/spacing.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "typography-story",
+      "title": "Typography Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "design",
+        "story": "ui-typography"
+      },
+      "registryDependencies": ["table"],
+      "files": [
+        {
+          "path": "registry/tokens/typography.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "all-stories",
+      "title": "All Stories",
+      "type": "registry:ui",
+      "meta": {
+        "type": "misc",
+        "story": ""
+      },
+      "registryDependencies": [
+        "accordion",
+        "alert",
+        "alert-dialog",
+        "aspect-ratio",
+        "avatar",
+        "badge",
+        "breadcrumb",
+        "button",
+        "calendar",
+        "card",
+        "carousel",
+        "chart",
+        "checkbox",
+        "collapsible",
+        "dialog",
+        "command",
+        "context-menu",
+        "drawer",
+        "dropdown-menu",
+        "label",
+        "hover-card",
+        "input",
+        "input-otp",
+        "menubar",
+        "navigation-menu",
+        "popover",
+        "progress",
+        "radio-group",
+        "resizable",
+        "scroll-area",
+        "select",
+        "separator",
+        "sheet",
+        "sidebar",
+        "skeleton",
+        "slider",
+        "switch",
+        "table",
+        "tabs",
+        "textarea",
+        "toggle",
+        "toggle-group",
+        "tooltip"
+      ],
+      "files": [
+        {
+          "path": "registry/accordion.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/alert.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/alert-dialog.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/aspect-ratio.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/avatar.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/badge.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/breadcrumb.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/button.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/calendar.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/card.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/carousel.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/chart.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/checkbox.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/collapsible.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/command.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/context-menu.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/date-picker.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/dialog.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/drawer.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/dropdown-menu.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/form.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/hover-card.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/input.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/input-otp.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/label.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/menubar.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/navigation-menu.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/pagination.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/popover.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/progress.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/radio-group.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/resizable.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/scroll-area.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/select.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/separator.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/sheet.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/sidebar.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/skeleton.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/slider.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/sonner.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/switch.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/table.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/tabs.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/textarea.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/toggle.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/toggle-group.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/tooltip.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/tokens/color.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/tokens/radius.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/tokens/shadow.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/tokens/spacing.stories.tsx",
+          "type": "registry:ui"
+        },
+        {
+          "path": "registry/tokens/typography.stories.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    }
+  ]
+}
