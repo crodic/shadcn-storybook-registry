@@ -791,6 +791,31 @@
       "files": [
         {
           "path": "registry/timeline.stories.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/ui/timeline.tsx",
+          "type": "registry:ui"
+        }
+      ]
+    },
+    {
+      "name": "stepper-story",
+      "title": "Stepper Story",
+      "type": "registry:ui",
+      "meta": {
+        "type": "ui",
+        "story": "ui-stepper"
+      },
+      "registryDependencies": [],
+      "dependencies": ["lucide-react"],
+      "files": [
+        {
+          "path": "registry/stepper.stories.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "components/ui/stepper.tsx",
           "type": "registry:ui"
         }
       ]
